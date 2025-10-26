@@ -8,9 +8,9 @@ Its purpose is to codify expert knowledge to help us make consistent, logical de
 
 It has three parts:
 
-- **The Crisis Advisor**: A simple Q&A tool for medical and weather advice.
-- **The Data Pipeline**: A tool for (later) processing raw sensor data logs, if we need to find new patterns.
-- **The Paper-Based System**: Our most important tool. A non-powered, "analog" version of the advisor.
+- **The Crisis Advisor**: A simple QnA tool for medical and weather advice.
+- **The Data Pipeline**: A tool for processing raw sensor data logs, if we need to find new patterns.
+- **The Paper-Based System**: Our most important tool. A non-powered, version of the advisor.
 
 ## 2. HOW TO USE THE PYTHON TOOL
 
@@ -48,11 +48,11 @@ Headache severity?
 
 [...]
 
-====================
+-----------------------------------------------
 CRITICAL: Fever + Severe Headache + Dizziness. Possible severe infection 
 (e.g., meningitis) or other critical infections. Monitor vital signs 
 frequently. Attempt to cool patient with damp cloths. Isolate if possible.
-====================
+------------------------------------------------
 
 Press Enter to continue...
 ```
@@ -91,11 +91,11 @@ START: Does patient have a fever?
 
 ## 4. LIMITATIONS
 
-⚠️ **Important Notes:**
+ **Important Notes:**
 
 - This is a very naive solution which works based on some rules.
 - If the system fails to recognize these rules, it breaks.
 - There's no actual intelligence in this solution as it's rule-based.
 - It's limited to certain keywords and actions only.
-- **Always seek professional medical attention when available.**
+
 
